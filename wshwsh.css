@@ -1,0 +1,77 @@
+/* CSS declarations go here */
+
+/*custome stylez*/
+body{
+    color: #52575b;
+    background: url(img/1.jpg) top left no-repeat fixed;
+    background-size: cover;
+}
+.border-right-light{
+    border-right: 1px solid #e1e1e1;
+}
+.white-background{
+    background: white;
+}
+header.wshwsh-header.ui.grid{
+    
+    border: 1px solid #e1e1e1;
+    margin-top: 15px;
+}
+.logo{
+    color: #52575b !important;
+    text-decoration: none !important;
+}
+.logo h1{
+         text-indent: -9999px;
+    background: url(/img/logo.png) top left no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 0;
+    
+}
+.logo span {
+   font-family: "museo-sans-rounded";
+    font-size: 23px;
+    margin-top: 0;
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+/*search*/
+.wshwsh-search input{
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+}
+/*header icons*/
+.wshwsh-header-icon i{
+    color: #8f8f8f !important;
+    text-decoration: none !important;
+    font-size: 23px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.wshwsh-header-option {
+    color: #8f8f8f;
+    text-decoration: none !important;
+    font-size: 30px;
+    padding-top: 23px !important;
+    transition: all 0.5s ease;
+}
+.wshwsh-header-option:hover,.wshwsh-header-option:active{
+    background: #52575b;
+    color: white;
+}
+.wshwsh-subheader{
+    height: 90px;
+    background: url(img/sky.jpg)  left top no-repeat;
+     background-size: cover;
+}
+.wshwsh-subheader h2{
+        margin-top: 27px;
+    margin-left: 295px;
+    color: white;
+}
