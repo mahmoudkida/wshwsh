@@ -6,11 +6,17 @@ body{
     background: url(img/1.jpg) top left no-repeat fixed;
     background-size: cover;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: "museo-sans-rounded";
+}
 .border-right-light{
     border-right: 1px solid #d1d1d3;
 }
 .border-left-light{
-    border-right: 1px solid #d1d1d3;
+    border-left: 1px solid #d1d1d3;
+}
+.border-bottom-light{
+    border-bottom: 1px solid #d1d1d3;
 }
 .white-background{
     background: white;
@@ -102,3 +108,16 @@ header.wshwsh-header.ui.grid{
 
 
 /*left nav*/
+.wshwsh-left-nav,wshwsh-right-nav{
+    padding: 20px;
+}
+.wshwsh-nav-header{
+    padding-bottom: 10px;
+    
+}
+.wshwsh-nav-header i{
+    color: #d0d1d3;
+        font-size: 20px;
+    vertical-align: top;
+    cursor: pointer;
+}

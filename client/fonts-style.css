@@ -1,4 +1,5 @@
 
+/*
 @font-face {
   font-family: "Avenir Next W02 Thin";
   src: url("fonts/b02684ae-72d2-42b2-b66b-60533411507e.woff") format("woff");
@@ -23,10 +24,8 @@
   font-family: "Metro Nova W04 Regular";
   src: url("fonts/969ff0b9-0f7c-4b65-a9c2-839849ffb133.woff") format("woff");
 }
-/* ::::: [internal] ::::: */
+*/
 
-.tk-museo-sans-rounded { font-family: "museo-sans-rounded","Avenir Next"; }
-/* ::::: https://use.typekit.net/c/07efe8/1w;museo-sans-rounded,7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191,R0R:W:n1,R0P:W:n3,R0S:W:n5,R0Q:W:n7/l?3bb2a6e53c9684ffdc9a9afe135b2a62d0c5cfebd5c62bc6cb59539a88cd00e4bfb8598896385839b27b78c2d9c8a6ee67e39871acfb65e1701cc7cc4d885982981e36c866b1c206577fb1184de765b7846f1a6f888f4424bb (@media all) ::::: */
 
 @font-face {
   font-family: "museo-sans-rounded";
