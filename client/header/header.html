@@ -15,36 +15,35 @@
             <a href="#"><i class="home icon"></i></a>
             <a href="#"><i class="comments outline icon"></i></a>
         </div>
-        <div href="#" class="one wide column wshwsh-header-option center aligned ui icon dropdown">
+        <div href="#" class="one wide column wshwsh-header-option center aligned ui icon dropdown left">
             <i class="sidebar icon"></i>
             <div class="menu">
+
                 <div class="header">
                     WshWsh Options
                 </div>
-                <div class="ui left icon input">
-                    <i class="filter icon"></i>
-                    <input type="text" name="search" placeholder="Search...">
-                </div>
-                <div class="header">
-                    <i class="tags icon"></i>
-                    Filter by tag
+                <div class="item">
+                    Language 
+                    <select>
+                    <option>{{langauge}}</option>
+                        <option>Arabic</option>
+                    </select>
+                    
                 </div>
                 <div class="item">
-                    <div class="ui red empty circular label"></div>
-                    Important
+                    <div class="ui toggle checkbox">
+                        <input type="checkbox" name="adult-content">
+                        <label>Filter Adult Content </label>
+                    </div>
+                    <div class="ui center aligned">
+                        <small >You can see adult content</small>
+                    </div>
                 </div>
-                <div class="item">
-                    <div class="ui blue empty circular label"></div>
-                    Announcement
-                </div>
-                <div class="item">
-                    <div class="ui black empty circular label"></div>
-                    Discussion
-                </div>
+
             </div>
         </div>
     </header>
     <section class=" ui grid wshwsh-subheader">
-        <h2>Catergory Name</h2>
+        <h2>{{category}}</h2>
     </section>
 </template>

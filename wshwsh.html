@@ -17,8 +17,9 @@
 <template name="wshwshLayout">
     <div class="ui container">
         {{> yield "header"}}
-        {{> yield "leftnav"}} {{> yield "main"}} {{> yield "rightnav"}}
-
+        <section class="ui grid">
+            {{> yield "leftnav"}} {{> yield "main"}} {{> yield "rightnav"}}
+        </section>
 
     </div>
     {{> footer}}

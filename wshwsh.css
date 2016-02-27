@@ -7,16 +7,28 @@ body{
     background-size: cover;
 }
 .border-right-light{
-    border-right: 1px solid #e1e1e1;
+    border-right: 1px solid #d1d1d3;
+}
+.border-left-light{
+    border-right: 1px solid #d1d1d3;
 }
 .white-background{
     background: white;
 }
+
+.lightgrey-background{
+    background: #f1f2f4;
+}
+
+
+/*page header*/
 header.wshwsh-header.ui.grid{
     
     border: 1px solid #e1e1e1;
     margin-top: 15px;
 }
+
+/*logo style*/
 .logo{
     color: #52575b !important;
     text-decoration: none !important;
@@ -54,17 +66,29 @@ header.wshwsh-header.ui.grid{
     margin-right: 15px;
     margin-top: 10px;
 }
-.wshwsh-header-option {
-    color: #8f8f8f;
+
+/*option dropdown*/
+ .wshwsh-header-option{
+    
     text-decoration: none !important;
-    font-size: 30px;
+    
     padding-top: 23px !important;
     transition: all 0.5s ease;
+}
+.wshwsh-header-option > i{
+    font-size: 18px;
+    color: #8f8f8f;
+}
+.wshwsh-header-option.ui.dropdown .menu{
+    right: -1px !important;
+    left: auto !important;
 }
 .wshwsh-header-option:hover,.wshwsh-header-option:active{
     background: #52575b;
     color: white;
 }
+
+/*sub header sky*/
 .wshwsh-subheader{
     height: 90px;
     background: url(img/sky.jpg)  left top no-repeat;
@@ -75,3 +99,6 @@ header.wshwsh-header.ui.grid{
     margin-left: 295px;
     color: white;
 }
+
+
+/*left nav*/

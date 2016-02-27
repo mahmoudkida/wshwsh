@@ -1,5 +1,7 @@
 if (Meteor.isClient) {
- 
+    Meteor.startup(function () {
+        //$('.ui.dropdown').dropdown();
+    });
 }
 
 Router.configure({
@@ -26,7 +28,7 @@ Router.route("/", function () {
 });
 Router.route("/:id", function () {
 
-     this.render("header", {
+    this.render("header", {
         to: "header",
     });
     this.render("leftnav", {
